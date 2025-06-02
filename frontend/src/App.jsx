@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import smoothscroll from 'smoothscroll-polyfill';
 
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
+
 
 import Home from "./pages/Home";
 import About from "./pages/About";
