@@ -1,6 +1,6 @@
 import asyncHandler from "../utils/asyncHandler.js"
 import { Project } from "../models/project.model.js"
-import { ApiResponse } from "../utils/ApiResponse.js"
+import { ApiResponse } from "../utils/apiResponse.js"
 
 const getProject = asyncHandler(async (req, res) => {
     const projects = await Project.find()
