@@ -3,7 +3,7 @@ import cors from 'cors'
 import cookieParser from 'cookie-parser'
 import projectRouter from './routes/project.route.js'
 import contactRouter from './routes/contact.route.js'
-import certificateRouter from './routes/certificate.route.js'
+
 
 const app = express()
 
@@ -19,7 +19,7 @@ app.use(cookieParser())
 
 app.use('/api/v1/projects', projectRouter)
 app.use('/api/v1/contact', contactRouter)
-// app.use('/api/v1/certificates', certificateRouter)
+
 
 
 
