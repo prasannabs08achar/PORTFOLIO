@@ -68,12 +68,12 @@ const Home = () => {
                     >
                         Projects
                     </Link>
-                    <Link
+                    {/* <Link
                         to="/contact"
                         className="border border-purple-500 hover:bg-purple-600 px-6 py-3 rounded-lg flex items-center gap-2 text-purple-400 hover:text-white transition"
                     >
                         Contact
-                    </Link>
+                    </Link> */}
                 </div>
 
                 {/* Social Icons */}
