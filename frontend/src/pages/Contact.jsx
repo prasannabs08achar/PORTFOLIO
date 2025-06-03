@@ -15,7 +15,7 @@ const Contact = () => {
         setLoading(true);
 
         try {
-            const response = await axios.post("/api/v1/contact/send-messege", messageData); // ✅ Ensure route starts with `/`
+            const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/v1/contact/send-messege`, messageData); // ✅ Ensure route starts with `/`
 
             alert("✅ " + response.data.message);
             setMessageData({ name: '', email: '', message: '' });
